@@ -1,5 +1,108 @@
-@media only screen and (min-width: 600px) and (max-width: 992px) {
+@media (min-width: 980px) {
   body {
-    background-color: green;
+    header {
+      .logo-container {
+        img {
+        }
+      }
+      #hamburger-icon-container {
+        img {
+        }
+      }
+      #desktop-menu-container {
+        ul {
+          li {
+          }
+        }
+      }
+    }
+    #mobile-menu-container {
+      #mobile-menu-header {
+        .logo-container {
+          img {
+          }
+        }
+        #close-icon-container {
+          img {
+          }
+        }
+      }
+      ul {
+        li {
+        }
+      }
+    }
+    main {
+      #hero-section {
+        h1 {
+        }
+      }
+      #about-section {
+        #about-card {
+          .card-header {
+            img {
+            }
+          }
+          .card-body {
+            h2 {
+            }
+            p {
+            }
+          }
+        }
+      }
+      #creations-section {
+        .section-header {
+          h2 {
+          }
+          .see-all-btn {
+          }
+        }
+        .section-body {
+          #mobile-grid {
+            .grid-item {
+              img {
+              }
+              .grid-item-overlay {
+              }
+              h3 {
+              }
+            }
+          }
+          #desktop-grid {
+            .grid-item {
+              img {
+              }
+              .grid-item-overlay {
+              }
+              h3 {
+              }
+            }
+          }
+        }
+        .section-footer {
+          .see-all-btn {
+          }
+        }
+      }
+    }
+    footer {
+      .logo-container {
+        img {
+        }
+      }
+      #footer-menu {
+        li {
+        }
+      }
+      #footer-social-menu {
+        li {
+          img {
+          }
+        }
+      }
+      #copyrigth {
+      }
+    }
   }
 }
